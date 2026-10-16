@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0f0e0e;
+    color:white;
+}
+body {
+    background-color: #f0ebeb;
+    color:rgb(8, 7, 7);
+}
