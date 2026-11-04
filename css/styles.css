@@ -27,7 +27,7 @@
 }
 
 main {
-  background-color: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 12%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +61,7 @@ h3 {
   color: inherit;
   padding: 15px;
   width: 300px;
-  background-color: hsl(0, 0%, 12%);
+  background-color: hsl(0, 0%, 20%);
   border-radius: 10px;
   margin-bottom: 15px;
   margin-left: 40px;
