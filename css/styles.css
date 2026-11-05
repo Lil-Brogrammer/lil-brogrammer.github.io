@@ -61,6 +61,7 @@ h3 {
   padding: 16px;
   background-color: hsl(0, 0%, 20%);
   border-radius: 10px;
+
   /* margin-bottom: 15px;
   margin-left: 40px; */
 }
@@ -68,8 +69,20 @@ h3 {
 #articles {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   width: 90%;
+}
+
+#articles a article {
+  /* your existing styles... */
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+#articles a article:hover {
+  transform: scale(1.05);
+  background-color: rgb(24, 190, 205);
 }
 
 #articles a,
